@@ -19,7 +19,16 @@ pnpm add link-dev --global
 
 ## Usage
 
-config your local packages at root path of your project, for 'package.local.json' or your custom config file.
+config your local packages at root path of your project, for `package.local.json` or your custom config file.
+
+json config for example:
+
+```json
+{
+  "@imyangyong/components": "/Users/imyangyong/Documents/imyangyong/components",
+  "my-utils": "/Users/yangyong/Documents/imyangyong/my-utils"
+}
+```
 
 in the `package.json`, for example:
 
