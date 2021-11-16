@@ -1,0 +1,35 @@
+{
+  "name": "link-dev",
+  "version": "1.0.0",
+  "description": "link your local npm packages automatically by a config file",
+  "bin": {
+    "link-dev": "bin/link-dev.js"
+  },
+  "scripts": {
+    "build": "rimraf bin && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imyangyong/link-dev.git"
+  },
+  "keywords": [
+    "link",
+    "local"
+  ],
+  "bugs": {
+    "url": "https://github.com/imyangyong/link-dev/issues"
+  },
+  "homepage": "https://github.com/imyangyong/link-dev#readme",
+  "author": "Angus Yang",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "execa": "^5.1.1",
+    "picocolors": "^1.0.0"
+  }
+}
