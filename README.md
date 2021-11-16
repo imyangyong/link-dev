@@ -12,7 +12,7 @@
 ## Installation
 
 ```
-pnpm global add link-dev
+pnpm add link-dev --global
 ```
 
 ## Usage
@@ -22,11 +22,11 @@ config your local packages at root path of your project, for 'package.local.json
 in the `package.json`, for example:
 
 ```json
-...
+//...
 "scripts": {
   "dev": "link-dev && xxxxxxxx",
 }
-...
+//...
 ```
 
 ## Options
