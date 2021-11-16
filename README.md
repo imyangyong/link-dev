@@ -9,6 +9,8 @@
 
 **Link your local npm packages automatically by a config file.**
 
+> Currently, only `pnpm` is supported
+
 ## Installation
 
 ```
