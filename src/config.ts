@@ -48,7 +48,5 @@ export default function configSet(options: Options) {
 
   setNpmUserAgent()
 
-  console.log(_config.npm_config_user_agent)
-
   return _config
 }
