@@ -9,23 +9,21 @@
 
 **Link your local npm packages automatically by a config file.**
 
-> Currently, only `pnpm` is supported
-
 ## Installation
 
 ```
-pnpm add link-dev --global
+npm install link-dev -g
 ```
 
 ## Usage
 
-config your local packages at root path of your project, for `package.local.json` or your custom config file.
+config your local packages at root path of your project, for `package.local.json`.
 
 json config for example:
 
 ```json
 {
-  "@imyangyong/components": "/Users/imyangyong/Documents/imyangyong/components",
+  "my-components": "../components",
   "my-utils": "/Users/yangyong/Documents/imyangyong/my-utils"
 }
 ```
