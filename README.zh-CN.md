@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  🇨🇬🇧<a href="./README.zh-CN.md">English</a>
+   🇬🇧 <a href="./README.zh-CN.md">English</a>
 </p>
 
 ---
