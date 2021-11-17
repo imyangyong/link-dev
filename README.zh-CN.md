@@ -6,26 +6,24 @@
 </p>
 
 <p align="center">
-  🇨🇳 <a href="./README.zh-CN.md">简体中文</a>
+  🇨🇬🇧<a href="./README.zh-CN.md">English</a>
 </p>
 
 ---
 
-**Link your local npm packages automatically by a config file**
+**通过一个 config 文件自动依赖本地 npm 包.**
 
-## Installation
+## 安装
 
 ```
 npm install link-dev -g
 ```
 
-## Usage
+## 如何使用
 
-Config your local packages at root path of your project, for `package.local.json`.
+在项目根目录配置 `package.local.json` 文件, **键**为包的名称, **值**为包的本地路径(支持绝对路径与相对路径).
 
-The ** key ** is the name of the package, and the ** value ** is the local path of the package (both absolute and relative paths are supported).
-
-json config for example:
+示例:
 
 ```json
 {
@@ -34,9 +32,9 @@ json config for example:
 }
 ```
 
-Then, you can configure the 'link-dev' command to pre-boot.
+之后, 你可以将 `link-dev` 命令配置到启动前.
 
-`package.json`, for example:
+`package.json`:
 
 ```json
 //...
@@ -46,8 +44,8 @@ Then, you can configure the 'link-dev' command to pre-boot.
 //...
 ```
 
-## Options
+## 配置项
 
-- config: custom your config file, default: `package.local.json`.
+- config: 自定义你的配置文件目录, 默认: `package.local.json`.
 
   `link-dev --config myConfigFile.json`
