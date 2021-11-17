@@ -13,6 +13,8 @@
 
 **Link your local npm packages automatically by a config file**
 
+> `npm`, `yarn`, `pnpm` package managers are supported.
+
 ## Installation
 
 ```
