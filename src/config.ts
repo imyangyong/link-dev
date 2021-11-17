@@ -27,7 +27,7 @@ const checkExistsConfigFile = (
 }
 
 const setNpmUserAgent = () => {
-  const agent = process.env.npm_config_user_agent?.match(/^.+\//)?.[1]
+  const agent = process.env.npm_config_user_agent?.match(/^(.+?)\//)?.[1]
   if (
     agent &&
     NPM_CONFIG_USER_AGENTS.includes(
@@ -41,6 +41,7 @@ const setNpmUserAgent = () => {
 
 export default function configSet(options: Options) {
   const { config: path } = options
+
   if (!checkExistsConfigFile(path)) {
     console.log(red('link-dev: config file not found.'))
     process.exit(1)

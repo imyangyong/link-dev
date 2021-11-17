@@ -1,6 +1,6 @@
 {
   "name": "link-dev",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "link your local npm packages automatically by a config file",
   "bin": {
     "link-dev": "bin/link-dev.js"
